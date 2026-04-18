@@ -54,6 +54,20 @@ nav a {
   font-weight: 500;
 }
 
+
+.announcement-banner {
+  background: #1f2937;
+  color: #f9fafb;
+  border-bottom: 1px solid #111827;
+}
+
+.announcement-banner p {
+  margin: 0;
+  padding: 0.7rem 0;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
 .hero {
   padding: 4rem 0 3rem;
 }
