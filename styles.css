@@ -41,10 +41,15 @@ body {
 }
 
 .logo {
-  font-weight: 800;
-  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
-  color: var(--text);
+}
+
+.logo-img {
+  width: 160px;
+  height: 40px;
+  display: block;
 }
 
 nav a {
@@ -226,5 +231,16 @@ h2 {
   .about,
   .card-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .logo-img {
+    width: 140px;
+    height: 35px;
+  }
+
+  nav a {
+    margin-left: 0.8rem;
   }
 }
